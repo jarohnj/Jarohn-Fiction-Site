@@ -1,4 +1,26 @@
 body {
     background-color: maroon;
     color: whitesmoke;
+    
+}
+
+.cropped1 {
+    width: 200px; /* width of container */
+    height: 170px; /* height of container */
+    object-fit: cover;
+    border: 5px solid whitesmoke;
+}
+
+.p1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 200;
+    
+}
+
+.cropped2 {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
 }
